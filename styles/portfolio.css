@@ -1,0 +1,17 @@
+:root {
+  --primary-color: #15375a;
+  --secondary-color: #296eb4;
+  --tertiary-color: #ff674d;
+  --q-color: #ffb3a6;
+  --heading-font: "Montserrat", sans-serif;
+  --default-font: "Poppins", sans-serif;
+}
+
+body {
+  background: var(--primary-color);
+  background: radial-gradient(
+    circle,
+    rgba(21, 55, 90, 1) 0%,
+    rgba(0, 0, 0, 1) 59%
+  );
+}

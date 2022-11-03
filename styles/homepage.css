@@ -1,0 +1,38 @@
+:root {
+  --primary-color: #15375a;
+  --secondary-color: #296eb4;
+  --tertiary-color: #ff674d;
+  --q-color: #ffb3a6;
+  --heading-font: "Montserrat", sans-serif;
+  --default-font: "Poppins", sans-serif;
+}
+
+.mainhead {
+  color: #ffffff;
+  font-family: var(--heading-font);
+  font-weight: bold;
+  font-size: 100px;
+}
+.mainhead .lastname {
+  font-size: 70px;
+}
+.subhead {
+  color: #ffffff;
+  font-family: var(--heading-font);
+  font-weight: bold;
+}
+.intro {
+  font-family: var(--default-font);
+  background-color: var(--primary-color);
+  border-radius: 15px;
+  padding: 30px;
+  color: #ffffff;
+  margin: 20px;
+}
+.btn {
+  color: #ffffff;
+  background-color: var(--tertiary-color);
+  font-family: var(--default-font);
+  font-weight: normal;
+  max-width: 150px;
+}
