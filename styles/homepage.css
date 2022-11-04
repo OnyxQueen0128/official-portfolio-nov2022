@@ -10,11 +10,12 @@
 .mainhead {
   color: #ffffff;
   font-family: var(--heading-font);
-  font-weight: bold;
-  font-size: 100px;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 110px;
 }
 .mainhead .lastname {
-  font-size: 70px;
+  font-size: 80px;
 }
 .subhead {
   color: #ffffff;
@@ -28,10 +29,13 @@
   padding: 30px;
   color: #ffffff;
   margin: 20px;
+  font-weight: 600;
+
+  font-size: 25px;
 }
 .btn {
-  color: #ffffff;
-  background-color: var(--tertiary-color);
+  color: var(--tertiary-color);
+  text-decoration: underline;
   font-family: var(--default-font);
   font-weight: normal;
   max-width: 150px;

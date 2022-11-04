@@ -15,3 +15,8 @@ body {
     rgba(0, 0, 0, 1) 59%
   );
 }
+
+.container {
+  max-width: 1200px;
+  padding: 30px;
+}
