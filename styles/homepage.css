@@ -1,27 +1,26 @@
 :root {
-  --primary-color: #15375a;
-  --secondary-color: #296eb4;
-  --tertiary-color: #ff674d;
-  --q-color: #ffb3a6;
-  --font-color-default: #ffffff;
+  --primary-color: #111344;
+  --secondary-color: #f5edf0;
+  --tertiary-color: #3c91e6;
+  --q-color: #d35269;
   --heading-font: "Montserrat", sans-serif;
   --default-font: "Poppins", sans-serif;
 }
 
 .main {
-  background: var(--secondary-color);
+  background: var(--primary-color);
   padding-bottom: 20px;
 }
 .container {
   max-width: 1200px;
   margin: auto;
-
   padding: 30px;
 }
 
 .mainhead {
-  color: var(--font-color-default);
+  color: var(--secondary-color);
   font-family: var(--heading-font);
+  text-shadow: 3px 2px 2px var(--tertiary-color);
   font-weight: 700;
   font-size: 120px;
   line-height: 110px;
@@ -37,32 +36,23 @@
   font-family: var(--default-font);
   border-radius: 15px;
   padding: 30px;
-  color: var(--font-color-default);
+  color: var(--secondary-color);
   font-weight: 600;
   font-size: 25px;
 }
-.mainbuttons .btn {
-  background-color: var(--tertiary-color);
-  color: var(--font-color-default);
-  font-family: var(--default-font);
-  font-weight: normal;
-  max-width: 150px;
-  min-width: 120px;
-  margin: 30px;
-}
 
 body {
-  background-color: var(--q-color);
+  background-color: var(--secondary-color);
 }
 
 h2 {
   font-size: 64px;
-  color: var(--font-color-default);
+  color: var(--primary-color);
 }
 
 p {
   font-size: 16px;
-  color: var(--font-color-default);
+  color: var(--tertiary-color);
   line-height: 1.7;
 }
 
