@@ -11,6 +11,10 @@
   margin: 30px;
 }
 
+h1 {
+  text-align: center;
+}
+
 h2 {
   font-family: var(--heading-font);
   font-weight: 600;
@@ -46,7 +50,13 @@ p {
 }
 
 @media (max-width: 620px) {
+  h1 {
+    font-size: 39px !important;
+  }
 }
 
 @media (max-width: 550px) {
+  h1 {
+    font-size: 35px !important;
+  }
 }

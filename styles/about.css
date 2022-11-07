@@ -45,4 +45,10 @@ p {
 }
 
 @media (max-width: 550px) {
+  h1 {
+    font-size: 37px !important;
+  }
+  h1 span {
+    font-size: 20px !important;
+  }
 }
