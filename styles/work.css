@@ -13,7 +13,7 @@
   padding: 30px;
 }
 
-.about-section {
+.work-section {
   margin: 30px;
 }
 
@@ -22,19 +22,25 @@ h1 {
   font-family: var(--heading-font);
   font-size: 64px;
   font-weight: 700;
-  line-height: 40px;
-}
-h1 span {
-  font-size: 40px;
-  opacity: 50%;
 }
 h2 {
   font-family: var(--heading-font);
   font-weight: 600;
 }
 
+h3,
 p {
   font-family: var(--default-font);
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+}
+
+p {
+  font-size: 14px;
 }
 
 .btn-preset {
@@ -46,7 +52,7 @@ p {
 }
 
 @media (max-width: 995px) {
-  .about-section {
+  .work-section {
     text-align: center;
   }
 }
