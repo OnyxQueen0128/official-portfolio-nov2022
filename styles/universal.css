@@ -60,3 +60,23 @@ h1 {
   font-size: 64px;
   font-weight: 700;
 }
+
+footer .footeremail a {
+  font-family: var(--default-font);
+  text-decoration: none;
+  font-size: 24px;
+  color: gray;
+  transition: all 150ms ease-in-out;
+}
+
+footer .footeremail a:hover,
+footer .socials a:hover {
+  color: var(--q-color);
+}
+
+footer .socials a {
+  margin: 0 20px;
+  color: gray;
+  transition: all 150ms ease-in-out;
+  font-size: 30px;
+}
