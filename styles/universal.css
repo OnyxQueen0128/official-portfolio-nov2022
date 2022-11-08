@@ -9,7 +9,7 @@
 
 nav {
   padding: 0;
-  background-color: lightgray;
+  background-color: var(--secondary-color);
 }
 
 nav ul {
@@ -37,13 +37,6 @@ nav li.active a {
   color: var(--tertiary-color);
 }
 
-@media (max-width: 500px) {
-  nav a {
-    font-size: 16px;
-    padding: 15px;
-  }
-}
-
 .container nav {
   padding: 0;
 }
@@ -61,22 +54,52 @@ h1 {
   font-weight: 700;
 }
 
-footer .footeremail a {
-  font-family: var(--default-font);
+footer a {
   text-decoration: none;
-  font-size: 24px;
-  color: gray;
-  transition: all 150ms ease-in-out;
 }
 
-footer .footeremail a:hover,
-footer .socials a:hover {
-  color: var(--q-color);
+footer .footeremail a {
+  font-family: var(--default-font);
+  font-size: 20px;
+  color: gray;
 }
 
 footer .socials a {
   margin: 0 20px;
   color: gray;
-  transition: all 150ms ease-in-out;
   font-size: 30px;
+}
+
+footer p a {
+  font-weight: bolder;
+}
+
+footer p,
+footer p a {
+  color: gray;
+}
+
+footer .footeremail a,
+footer .socials a,
+footer p a {
+  transition: all 150ms ease-in-out;
+}
+
+footer .footeremail a:hover,
+footer .socials a:hover,
+footer p a:hover {
+  color: var(--q-color);
+}
+
+@media (max-width: 500px) {
+  nav a {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  footer p {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 14px;
+  }
 }
