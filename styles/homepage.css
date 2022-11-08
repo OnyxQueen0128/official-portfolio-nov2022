@@ -19,7 +19,7 @@
   font-weight: 700;
   font-size: 120px;
   line-height: 110px;
-  padding: 30px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -43,7 +43,7 @@ body {
 h2 {
   font-size: 64px;
   color: var(--primary-color);
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 80px;
 }
 
@@ -97,6 +97,10 @@ p {
     font-size: 55px;
     margin-top: 25px;
     margin-bottom: 45px;
+  }
+
+  .secondarysection {
+    text-align: center;
   }
 }
 

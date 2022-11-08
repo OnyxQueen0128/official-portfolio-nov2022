@@ -35,12 +35,8 @@ p {
   font-size: 14px;
 }
 
-.btn-preset {
-  background-color: var(--tertiary-color);
-  color: var(--secondary-color);
-  font-family: var(--default-font);
-  font-weight: normal;
-  padding: 15px;
+.row a:hover {
+  opacity: 80%;
 }
 
 @media (max-width: 995px) {
