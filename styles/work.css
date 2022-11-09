@@ -25,6 +25,17 @@ p {
   font-family: var(--default-font);
 }
 
+.row a {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  min-height: 320px;
+  max-height: 350px;
+  border-radius: 12px;
+}
+
 h3 {
   font-size: 24px;
   line-height: 1.5;

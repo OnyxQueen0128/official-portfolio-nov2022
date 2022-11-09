@@ -8,14 +8,14 @@
 }
 
 .main {
-  background: var(--primary-color);
+  background: var(--tertiary-color);
   padding-bottom: 20px;
 }
 
 .mainhead {
   color: var(--secondary-color);
   font-family: var(--heading-font);
-  text-shadow: 3px 2px 2px var(--tertiary-color);
+  text-shadow: 3px 2px 2px var(--primary-color);
   font-weight: 700;
   font-size: 120px;
   line-height: 110px;
@@ -37,7 +37,7 @@
 }
 
 body {
-  background-color: var(--secondary-color);
+  background-color: white;
 }
 
 h2 {
@@ -60,12 +60,17 @@ p {
   padding: 20px;
   font-size: 30px;
   color: var(--secondary-color);
-  background-color: var(--tertiary-color)
+  background-color: var(--primary-color);
 }
 
 .contactbtn:hover {
   color: var(--secondary-color);
   background-color: var(--q-color);
+}
+
+img {
+  max-height: 380px;
+  border-radius: 12px;
 }
 
 .projectbtns {
