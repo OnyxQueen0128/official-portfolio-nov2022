@@ -27,6 +27,23 @@ h2 {
 
 p {
   font-family: var(--default-font);
+  color: var(--primary-color);
+}
+
+.subtext {
+  background-color: #F0F0F0;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+p a {
+  text-decoration: none;
+  color: var(--q-color);
+  transition: all 150ms ease-in-out;
+}
+
+p a:hover {
+  color: var(--tertiary-color);
 }
 
 .btn-preset {
